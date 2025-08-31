@@ -1,0 +1,143 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  position: relative;
+  transition: background 1s ease-in-out;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  transition: opacity 1s ease-in-out, background 1s ease-in-out;
+}
+
+body.fade-bg::before {
+  opacity: 0;
+}
+
+/* Background canvas */
+#bgCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Glass container */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 420px;
+  animation: fadeIn 1s ease-in;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.app-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Search box */
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  transform: scale(1.02);
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ff6b6b, #ff4c4c);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ff4c4c, #d84343);
+}
+
+/* Weather results */
+.weather-result {
+  margin-top: 1rem;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: all 0.5s ease;
+}
+
+.weather-result.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.weather-result h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.weather-result p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.weather-result img {
+  margin-top: 10px;
+  width: 80px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

